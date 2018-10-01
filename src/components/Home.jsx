@@ -11,7 +11,6 @@ class Home extends Component{
                     <Jumbotron className="">
                         <h2>Welcome to CodeLife.io</h2>
                         <p>This is how to build a website using React, React-Router & React-Bootstrap</p>
-                        <h1>This is the test</h1>
                         <Link to="/about">
                             <Button bsStyle="primary">About</Button>
                         </Link>
