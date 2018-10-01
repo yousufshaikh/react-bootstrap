@@ -14,13 +14,13 @@ class CustomNavbar extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                        <NavItem to="/" eventKey={1} componentClass={Link}>
+                        <NavItem href="/" eventKey={1} >
                             Home
                         </NavItem>
-                        <NavItem to="/about" eventKey={2} componentClass={Link}>
+                        <NavItem href="/about" eventKey={2}>
                             About
                         </NavItem>
-                        <NavItem to="/news" eventKey={3} componentClass={Link}>
+                        <NavItem href="/news" eventKey={3}>
                             News
                         </NavItem>
                     </Nav>
