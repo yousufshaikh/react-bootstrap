@@ -5,17 +5,21 @@ import Home from './components/Home';
 import About from './components/About';
 import News from './components/News';
 import Error from './components/Error';
+import CustomNavbar from './components/CustomNavbar';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/news" component={News}/>
-          <Route  component={Error}/>
-        </Switch>
+        <div>
+          <CustomNavbar/>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/news" component={News}/>
+            <Route  component={Error}/>
+          </Switch>
+        </div>
       </BrowserRouter>
     );
   }
