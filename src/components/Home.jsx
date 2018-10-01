@@ -18,18 +18,18 @@ class Home extends Component{
                 </Grid>
                 <Grid>
                     <Row className="text-center show-grid">
-                        <Col xs={12} sm={4}>
-                            <Image src="assets/person-1.jpg" circle />
+                        <Col xs={12} sm={4} className="person-wrapper">
+                            <Image src="assets/person-1.jpg" circle className="profile-pic"/>
                             <h1>Ismail Haq</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, enim. Odio, animi quaerat doloribus cupiditate accusamus sapiente repudiandae asperiores, quas vel facere perferendis voluptas, voluptates aliquam totam quam a molestiae.</p>
                         </Col>
-                        <Col xs={12} sm={4}>
-                            <Image src="assets/person-2.jpg" circle />
+                        <Col xs={12} sm={4} className="person-wrapper">
+                            <Image src="assets/person-2.jpg" circle className="profile-pic"/>
                             <h1>Sonia Khan</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, enim. Odio, animi quaerat doloribus cupiditate accusamus sapiente repudiandae asperiores, quas vel facere perferendis voluptas, voluptates aliquam totam quam a molestiae.</p>
                         </Col>
-                        <Col xs={12} sm={4}>
-                            <Image src="assets/person-3.jpg" circle />
+                        <Col xs={12} sm={4} className="person-wrapper">
+                            <Image src="assets/person-3.jpg" circle className="profile-pic"/>
                             <h1>Arshad Azam</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, enim. Odio, animi quaerat doloribus cupiditate accusamus sapiente repudiandae asperiores, quas vel facere perferendis voluptas, voluptates aliquam totam quam a molestiae.</p>
                         </Col>
